@@ -50,7 +50,7 @@
             <h1 class="hero-title">Ефективні рішення для
                 <br> вашого бізнесу
             </h1>
-            <button class="button-order" type="button">Замовити послугу</button>
+            <button class="button-order" data-modal-open type="button">Замовити послугу</button>
             </div>
         </section>
 
@@ -312,15 +312,15 @@
 
    <!--Footer-->
 
-   <div class="modal-wrap">
-    <div class="modal">
-        <button type="button" class="close-modal" data-modal-close>
-            <svg class="icon icon-modal" width="11" height="11">
+    <div class="modal is-hidden" data-modal>
+    <div class="modal-window">
+        <button class="close-button" data-modal-close type="button">
+            <svg class="icon icon-close" width="11" height="11">
                 <use xlink:href="./images/sprite.svg#icon-close-black"></use>
             </svg>
         </button>
     </div>
-   </div>
+   </div> 
     
 <footer class="footer">
     <div class="container">
