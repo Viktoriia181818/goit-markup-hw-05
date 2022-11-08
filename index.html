@@ -91,9 +91,25 @@
         <div class="container">
             <h2 class="section-title work-title">Чим ми займаємося</h2>
             <ul class="work list">
-                <li class="item"><img src="./images/img.jpg" alt="друкує код" width="370"></li>
-                <li class="item"><img src="./images/img(1).jpg" alt="тримає телефон" width="370"></li>
-                <li class="item"><img src="./images/img(2).jpg" alt="тримає планшет" width="370"></li>
+                <li class="item">
+                    <img src="./images/img.jpg" alt="друкує код" width="370" class="img-about">
+                    <p class="about-text">
+                        Десктопні додатки
+                    </p>
+                </li>
+            
+                <li class="item">
+                    <img src="./images/img(1).jpg" alt="тримає телефон" width="370" class="img-about">
+                    <p class="about-text">
+                        Мобільні додатки
+                    </p>
+                </li>
+                <li class="item">
+                    <img src="./images/img(2).jpg" alt="тримає планшет" width="370" class="img-about">
+                    <p class="about-text">
+                        Дизайнерські рішення
+                    </p>
+                </li>
             </ul>
         </div>
     </section>
@@ -295,6 +311,16 @@
     </main>
 
    <!--Footer-->
+
+   <div class="modal-wrap">
+    <div class="modal">
+        <button type="button" class="close-modal" data-modal-close>
+            <svg class="icon icon-modal" width="11" height="11">
+                <use xlink:href="./images/sprite.svg#icon-close-black-18dp-2-1"></use>
+            </svg>
+        </button>
+    </div>
+   </div>
     
 <footer class="footer">
     <div class="container">
@@ -347,6 +373,7 @@
         </div>
     </div>
 </footer>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
