@@ -727,11 +727,13 @@ a {
 }
 
 .opacity {
+    display: block;
     position: relative;
     overflow: hidden;
 }
 
 .opacity-text {
+    overflow: auto;
     position: absolute;
     font-size: 18px;
     line-height: 1.55;
@@ -747,9 +749,9 @@ a {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.opacity:hover .opacity-text {
+.opacity:hover .opacity-text,
+.opacity:focus .opacity-text {
     transform: translateX(0%);
-    overflow: auto;
 }
 
 .button {
